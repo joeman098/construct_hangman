@@ -1,0 +1,23 @@
+{
+  "name": "construct_hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeman098/construct_hangman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeman098/construct_hangman/issues"
+  },
+  "homepage": "https://github.com/joeman098/construct_hangman#readme",
+  "dependencies": {
+    "inquirer": "^5.0.0",
+    "jquery": "^3.2.1"
+  }
+}
