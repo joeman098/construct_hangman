@@ -14,8 +14,8 @@ function start() {
 					name: "guess",
 					message: "enter a letter",
 					validate: function(g) {
-						if (g.length > 1) {
-							return "guess 1 at a time";
+						if (g.length > 1 || g.length < 1) {
+							return "guess correctly";
 						} else {
 							return true;
 						}
@@ -40,6 +40,7 @@ function start() {
 							.then(function(yes) {
 								if (yes.restart) {
 									start();
+
 								} else {
 									console.log("good bye");
 								}
