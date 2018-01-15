@@ -1,11 +1,8 @@
-
 //Word: Used to create an object representing the current word the user is attempting to guess. This should contain word specific logic and data.
 
-
-
-function Word(){
-		var  wordList =
-		["exist",
+function Word() {
+	var wordList = [
+		"exist",
 		"explanation",
 		"facing",
 		"film",
@@ -47,20 +44,16 @@ function Word(){
 		"occasionally",
 		"official",
 		"ourselves",
-		"palace",
-		];
+		"palace"
+	];
 
-
-	var random = Math.floor(Math.random()* 42);
+	var random = Math.floor(Math.random() * 42);
 	this.currentWord = wordList[random];
 
-	
-
-
-	this.print = function(){
-	console.log(this.currentWord);
-}
+	this.print = function() {
+		console.log(this.currentWord);
+	};
 }
 // var test = new Word
-module.exports = Word ;
+module.exports = Word;
 // console.log(test.currentWord);
